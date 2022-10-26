@@ -8,7 +8,7 @@ print("A variavel é do tipo: ", type(caractere))
 print("A palavra escrita foi: ", caractere)
 print("A variavel é do tipo: ", type(inteiro))
 print("O número digitado foi: ", inteiro)
-
+dade
 real = float(inteiro)
 print("O número digitado foi: ", real)
 print("A variavel é do tipo: ", type(real))
