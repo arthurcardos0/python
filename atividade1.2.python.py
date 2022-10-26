@@ -1,10 +1,14 @@
 # Crie um programa para receber valores em variaveis de string e inteiro.
 
-idade = 19
-input (n) ("Digite sua idade: ")
-print("Você tem: ")
-int () ("Irá receber este valor: ")
-print(intup)
+caractere = input("Escreva uma palavra: ")
 
-EM TENTATIVA
+inteiro = int(input("Digite número um inteiro: "))
 
+print("A variavel é do tipo: ", type(caractere))
+print("A palavra escrita foi: ", caractere)
+print("A variavel é do tipo: ", type(inteiro))
+print("O número digitado foi: ", inteiro)
+
+real = float(inteiro)
+print("O número digitado foi: ", real)
+print("A variavel é do tipo: ", type(real))
