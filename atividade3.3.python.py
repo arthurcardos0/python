@@ -26,3 +26,4 @@ while sim == "S":
 
     sim = input("Deseja continuar? s ou n ").upper()
 
+print("fim")
