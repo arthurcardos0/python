@@ -2,12 +2,13 @@
 #numero será a tabuada e qual intervalo do inicio e fim da
 #tabuada, e exibir na tela o resultado conforme intervalo.
 
-print ("tabuada")
+print ("Tabuada do número desejado")
 
-numero = int(input("Qual número você deseja saber a tabuda? "))
-inicio = int(input("Digite o inicio do intervalo da tabuada: "))
+tabuada = int(input("Digite o número da tabuada: "))
+inicio = int(input("Digite o início do intervalo da tabuada: "))
 fim = int(input("Digite o fim do intervalo da tabuda: "))
 
-print("Tabuada de ", numero, "de ", inicio, "até ", fim)
-for i in range(inicio,fim):
-    print(numero, "*", 1, "=", (numero*(1)))
+for i in range(inicio, fim + 1):
+    print("Tabuada do número", tabuada, " resultado ", tabuada, "*", inicio, "=", tabuada * inicio)
+    print("Tabuada resultado: ", tabuada * inicio)
+    inicio = inicio + 1
