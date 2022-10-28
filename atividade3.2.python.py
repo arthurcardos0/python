@@ -10,4 +10,4 @@ fim = int(input("Digite o fim do intervalo da tabuda: "))
 
 print("Tabuada de ", numero, "de ", inicio, "até ", fim)
 for i in range(inicio,fim):
-    print(numero, "*", 1, "=", (numnero*(1)))
+    print(numero, "*", 1, "=", (numero*(1)))
