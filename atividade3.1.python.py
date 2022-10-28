@@ -2,14 +2,15 @@
 #Mostre a mensagem "Bom Dia!", "Boa Tarde!" ou "Boa Noite!" ou "Valor Inválido!"
 
 
-print ("Pesquisa de turnos")
-turno = input("Qual turno você estuda? Caso seja de manhã digite m, a tarde de v, pela noite n: ")
+print ("Programa para realizar saudação do dia")
+turno = input("Digite seu turno, M para manhã, T para tarde e N para noite: ").upper()
 match turno:
-    case "m":
+    case "M":
         print("Bom Dia!")
-    case "v":
+    case "T":
         print("Boa Tarde!")
-    case "n":
+    case "N":
         print("Boa Noite!")
     case _:
         print("Valor Inválido.")
+
