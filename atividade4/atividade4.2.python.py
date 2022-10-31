@@ -32,9 +32,9 @@ print("Valor da media do quarto bimestre é: ", media4)
 nota_final = media1 + media2 + media3 + media4
 print("Nota final do aluno é: ", nota_final)
 
-if (nota_final >= 60):
+if (nota_final >= 60 and nota_final <= 100):
     print("Aluno aprovado")
-elif (40 < nota_final > 60):
+elif (nota_final >= 40 and nota_final < 60):
     print("Aluno em recuperação")
-elif (40 > nota_final):
+elif (nota_final < 40 and nota_final == 0):
     print("Aluno reprovado")

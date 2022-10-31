@@ -15,11 +15,11 @@ bimestre4 = float(input("Valor da nota referente ao 4 bimestre: "))
 nota_final = bimestre1 + bimestre2 + bimestre3 + bimestre4
 print("A nota final do aluno é: ", nota_final)
 
-if (nota_final >= 60):
+if (nota_final >= 60 and nota_final <= 100):
     print("Aluno aprovado")
-elif (40 < nota_final > 60):
+elif (nota_final <= 40 and nota_final < 60):
     print("Aluno em recuperação")
-elif (40 > nota_final):
+elif (nota_final < 40 and nota_final == 0):
     print("Aluno reprovado")
 
 
