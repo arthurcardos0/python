@@ -16,7 +16,7 @@ for i in range(5):
     for j in range(5):
         if lista[i][j] == n1:
             print("Número encontrado: ", n1, "na posição ", lista, i, j)
-            enconttrado = True
+            encontrado = True
 
 if encontrado is False:
     print("Não foi encontrado na busca seu número.")
