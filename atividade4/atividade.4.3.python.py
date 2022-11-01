@@ -21,6 +21,7 @@ for i in range(5):
 if encontrado is False:
     print("Não foi encontrado na busca seu número.")
 
+
 print(lista)
 
 
