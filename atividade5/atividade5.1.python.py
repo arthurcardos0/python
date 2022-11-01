@@ -1,6 +1,7 @@
 #Faça um Programa que leia em um vetor de 10 caracteres (letras ) e diga quantas consoantes foram lidas.
 #Mostre as consoantes.
 
+print("Programa para mostrar consoantes")
 vetor = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 
 for i in range(10):
