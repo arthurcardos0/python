@@ -5,7 +5,7 @@ print("Programa para mostrar consoantes")
 vetor = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 
 for i in range(10):
-    vetor[i] = input("Digite uma letra " + str(i) + ":" )
+    vetor[i] = input("Digite uma letra: " + str(i) + ": " )
 print(vetor)
 
 contador = 0
@@ -15,5 +15,5 @@ for i in range(10):
          print("Consoante ma posição: " + str(i+1) + ": ", vetor[i])
          contador = contador + 1
 
-print("O número total de consoantes é ", contador)
+print("O número total de consoantes é: ", contador)
 
